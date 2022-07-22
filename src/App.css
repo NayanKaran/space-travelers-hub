@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.App-logo {
+  height: 56px;
+}
+
+#root > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 64px;
+  border-bottom: 1px solid black;
+}
+
+#root > header > h1 {
+  margin-right: auto;
+  padding-left: 16px;
+}
+
+#root > header > nav {
+  display: flex;
+  gap: 16px;
+}
+
+#root > header > nav > a {
+  text-decoration: none;
+  color: #0290ff;
+}
+
+#root > header > nav > a.active-link {
+  text-decoration: underline;
+}
+
+#root > header > nav > a:nth-child(3) {
+  border-left: 2px solid black;
+  padding-left: 16px;
+}
